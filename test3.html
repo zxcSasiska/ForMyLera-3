@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вопрос</title>
+    <link rel="icon" href="image/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+    <div class="question-box">
+        <h2>Выйдешь ли ты за меня?</h2>
+        
+        <div class="answer-buttons">
+            <button type="button" id="yesBtn" class="yes-btn">Да ❤️</button>
+            <button type="button" id="noBtn" class="no-btn">Нет</button>
+        </div>
+        
+        <p id="message" class="message"></p>
+        
+        <button type="button" id="nextBtn" class="next-btn">Далее</button>
+    </div>
+
+    <!-- Затемнение фона -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Окно с гифкой -->
+    <div class="gif-popup" id="gifPopup">
+        <button type="button" class="close-btn" id="closeBtn">✕</button>
+        <img id="popupGif" src="" alt="Гифка">
+    </div>
+
+    <script src="js/script4.js"></script>
+</body>
+</html>
